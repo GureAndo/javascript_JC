@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device=width, initial=scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="description" content="javascript" />
+    <meta name="author" content="Alix" />
+    <meta name="keywords" content="" />
+    <title>BASE DU JS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--html-->
+    <p>tuto js</p>
+    <script>
+      "use strict"; // le use strict permet de lever certaines erreures qui normalment ne sont pas prise en compte
+      // toto = "toto"; il est imposiblede crée accidentelement des variable globale avec le use strict
+      var toto = "tata";
+      console.log(toto);
+      let coucou = "coucou";
+      // voiture = "une voiture rouge";
+      console.log(coucou);
+      // génére  un popup d'alerte
+      alert("bonjour a tous !");
+      // inscrit directement dans la page web
+      document.write("<h1>vous êtes dans votre page html, navigateur</h1>");
+      //popup avec un question qui attend un reponce  du user utilisateur.
+      let question = window.prompt("une question ?");
+      console.log(question);
+    </script>
+    <script src="js/monscript.js"></script>
+  </body>
+</html>
