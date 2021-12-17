@@ -34,3 +34,19 @@ console.log(phraseNumber1);
 
 let phrase3 = ` le chiffre est : ${number1}`; //backtick alt gr + 7 2fois permet d'eviter la concatenation ne pas mettre de balise HTML
 console.log(phrase3);
+// ------------ les type de variables-------------
+let string = "je suis une chaine de caractère";
+let number = 24;
+let number24 = "24";
+console.log(number + parseInt(number24));
+let boolean = true; // un boolean est true ou false
+let array = ["je", "suis", "Ândo", 24, true, false, [" voiture", 15]]; // un tableau commence a l'index 0 =>premiere valeur du tab
+console.log(array);
+console.log(array[1]); //donc ici on a appler "suis"
+let object = { prenom: "Glen", age: 30, ville: "paris", km: 70 }; // l'objet fonctionne avec des key et des value key:value
+console.log(object);
+let tabtest = ["un", "deux", [1, 2]];
+console.log(tabtest);
+console.log(tabtest[0]); //retourne un
+console.log(tabtest[2][0]); //retourne 1
+console.log(tabtest[0] + tabtest[2][0]); //retourne un1
