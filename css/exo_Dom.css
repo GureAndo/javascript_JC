@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: url(../img/cc18109e-18a4-4f01-a35b-be91dddb6701-profile_banner-480.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  padding-top: 15px;
+  background-color: gray;
+  width: 100%;
+}
+.logo {
+  margin-left: 70px;
+}
+
+.logo p {
+  font-family: "Rock 3D";
+  color: yellow;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+h1,
+h2 {
+  color: yellow;
+  font-family: "Rock 3D";
+}
+nav {
+  margin-right: 70px;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav a,
+footer a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 25px;
+  font-family: "Rock 3D";
+}
+
+main {
+  background: gray;
+  margin-left: 20%;
+  margin-right: 20%;
+  opacity: 0.7;
+}
+
+.decor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.decor p {
+  color: black;
+  font-size: 25px;
+}
+
+.img img {
+  width: 100%;
+}
+footer ul li {
+  list-style: none;
+}
+
+footer {
+  background-color: gray;
+  padding-bottom: 15px;
+}
+footer p {
+  color: yellow;
+}

@@ -1,0 +1,64 @@
+/* --------------- GLOBALE -----------------------------*/
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*color: white;
+  /* le double de la hauteur */
+  min-height: 200vh;
+  overflow-x: hidden;
+}
+p {
+  padding: 10px;
+}
+/* ------------------ TITRE---------------------------- */
+#selectH1 {
+  visibility: hidden;
+  margin: 20px;
+}
+/* ------------------- REGLES DU JEU ------------------ */
+.firstCaracPara {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* ---------------- BOX QUESTION ---------------------- */
+.box {
+  border: 3px solid white;
+  /* transition lineaire en entrée et sortie */
+  transition: 0.25s ease;
+  background: black;
+  padding: 10px;
+}
+/* on cache la réponse pas de display none */
+.reponse {
+  visibility: hidden;
+  width: 240px;
+  margin: 10px auto 0;
+}
+/* ------------------ AJOUT D'UNE CLASS A UNE SPAN ------ */
+.spanAddClass {
+  color: #3333;
+}
+/* -------------------------- CLASS pour event ------------ */
+.questionBg {
+  background-color: #3333;
+}
+/* ------------------un cercle pour mouseup mousedown ----------------- */
+#mouseMove {
+  width: 20px;
+  height: 20px;
+  background: rgba(3, 163, 255, 0.411);
+  border-radius: 50%;
+  position: absolute;
+  /* pour le curseur au centre */
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
