@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  /*color: white;
+  color: white;
   /* le double de la hauteur */
   min-height: 200vh;
   overflow-x: hidden;
@@ -39,6 +39,12 @@ p {
 }
 /* on cache la réponse pas de display none */
 .reponse {
+  visibility: hidden;
+  width: 240px;
+  margin: 10px auto 0;
+}
+.reponse2 {
+  display: none;
   visibility: hidden;
   width: 240px;
   margin: 10px auto 0;

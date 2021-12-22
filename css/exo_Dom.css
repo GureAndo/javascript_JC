@@ -11,9 +11,10 @@ body {
 }
 
 header {
-  padding-top: 15px;
+  padding-top: 5px;
   background-color: gray;
   width: 100%;
+  opacity: 0.9;
 }
 .logo {
   margin-left: 70px;
@@ -22,11 +23,13 @@ header {
 .logo p {
   font-family: "Rock 3D";
   color: yellow;
+  font-size: 25px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 h1,
 h2 {
@@ -37,7 +40,14 @@ nav {
   margin-right: 70px;
 }
 nav ul li {
-  display: inline-block;
+  list-style: none;
+  padding: 0 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 nav a,
@@ -50,26 +60,41 @@ footer a {
 
 main {
   background: gray;
-  margin-left: 20%;
-  margin-right: 20%;
-  opacity: 0.7;
+  margin: 0 auto;
+  opacity: 0.9;
+  width: 70%;
 }
-
+.txt {
+  /* display: flex; */
+  /*flex-direction: column;*/
+  padding: 50px;
+  width: 500px;
+}
 .decor {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.decor1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .decor p {
   color: black;
   font-size: 25px;
 }
-
+.img {
+  width: 50%;
+}
 .img img {
   width: 100%;
 }
+
 footer ul li {
   list-style: none;
 }
@@ -77,7 +102,25 @@ footer ul li {
 footer {
   background-color: gray;
   padding-bottom: 15px;
+  opacity: 0.9;
 }
 footer p {
   color: yellow;
+}
+
+.displayNone {
+  display: none;
+}
+
+.img2 {
+  background: url(../img/index.3.jpg) no-repeat center/cover;
+  width: 650px;
+  height: 460px;
+}
+
+.img1 {
+  background: url(../img/L_influence_du_paysage_sur_le_bonheur.jpg) no-repeat
+    center/cover;
+  width: 650px;
+  height: 460px;
 }
