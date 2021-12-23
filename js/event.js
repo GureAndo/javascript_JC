@@ -58,3 +58,27 @@ window.addEventListener("mousedown", () => {
 window.addEventListener("mouseup", () => {
   mouseMove.style.transform = "scale(1) translate(-50%,-50%)";
 });
+
+///MouseEnter MouseOut
+questionContainer.addEventListener("mouseenter", function () {
+  questionContainer.style.background = "#3333";
+});
+questionContainer.addEventListener("mouseout", function () {
+  questionContainer.style.background = "#000";
+});
+
+//mouseover
+
+reponse.addEventListener("mouseover", () => {
+  reponse.style.transform = "rotate(15deg)";
+});
+reponse2.addEventListener("mouseover", () => {
+  reponse2.style.transform = "rotate(-15deg)";
+});
+
+reponse.addEventListener("mouseout", function () {
+  reponse.style.transform = "rotate(0deg)";
+});
+reponse2.addEventListener("mouseout", function () {
+  reponse2.style.transform = "rotate(0deg)";
+});
