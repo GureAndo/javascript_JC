@@ -1,0 +1,61 @@
+/* portable*/
+.bgPortable {
+  background: blue;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img img {
+  width: 300px;
+}
+p {
+  width: 300px;
+}
+/*tab*/
+@media screen and (min-width: 576px) {
+  .bgPortable {
+    background: red;
+  }
+  p {
+    padding: 15px;
+    width: 500px;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 768px) {
+  .bgPortable {
+    background: green;
+  }
+  p {
+    padding: 15px;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bgPortable {
+    background: purple;
+  }
+  p {
+    padding: 15px;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bgPortable {
+    background: yellow;
+  }
+  p {
+    padding: 15px;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .bgPortable {
+    background: orangered;
+  }
+  p {
+    padding: 15px;
+    width: 700px;
+  }
+}
